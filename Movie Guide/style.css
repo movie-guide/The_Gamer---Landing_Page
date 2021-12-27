@@ -1,0 +1,126 @@
+.wrapper {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.container {
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background: url('images/backgrounds/header-bg.jpeg') no-repeat center / cover;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 45px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+
+    transition: color 0.2s linear;
+}
+
+.nav-link:hover {
+    color: #21ebff;
+}
+
+.header-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: 'Marvel', sans-serif;
+    color: #fff;
+}
+
+.title {
+    font-size: 120px;
+}
+
+.subtitle {
+    font-size: 34px;
+    padding-bottom: 50px;
+    
+}
+
+.btn-item {
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.btn-link {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 12px 30px;
+    color: #1ac7d6;
+    background: transparent;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 24px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-link:hover {
+    background: #21ebff;
+    color: #111;
+    box-shadow: 0 0 50px #21ebff;
+}
+
+.btn-link:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 0.5s;
+
+    outline: none;
+}
+
+.btn-link:hover:before {
+    width: 98%;
+    height: 98%;
+}
+
+.btn-link:after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 0.5s;
+}
+
+.btn-link:hover:after {
+    width: 98%;
+    height: 98%;
+}
+
