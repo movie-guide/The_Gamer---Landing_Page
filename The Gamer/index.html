@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>The Gamer</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header full-height" id="latest_news">
+            <div class="header-bar">
+                <div class="header-container container">
+                    <div class="logo">
+
+                        <a href="#" onclick="window.location.reload()">
+                            <img class="logo-img" src="./images/logo.png" alt="Gamepad">
+                        </a>
+
+                        <a class="logo-text-link" href="#" onclick="window.location.reload()">
+                            <p class="logo-text">The <span class="logo-text__red">Gamer</span></p>
+                        </a>
+                    </div>
+
+                    <div class="header-burger">
+                        <span></span>
+                    </div>
+
+                    <nav class="nav-menu" id="menu">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a class="nav-link" href="#latest_news">Latest News</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact_us">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#social_networks">Social Networks</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="header-hero">
+                <h2 class="heading">Latest News</h2>
+                <div class="slider">
+                    <div class="slider-item">
+                        <div class="slider-img">
+                            <img src="./images/slider/Battlefield.jpg" alt="Battlefield">
+                        </div>
+                        <div class="descr">
+                            <div class="slider-text">Battlefield V is moving to a new engine</div>
+                            <button class="slider-btn button">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="slider-img">
+                            <img src="./images/slider/CallofDuty.jpg" alt="Call of Duty">
+                        </div>
+                        <div class="descr">
+                            <div class="slider-text">Call of Duty prepares to improve graphics</div>
+                            <button class="slider-btn button">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="slider-img">
+                            <img src="./images/slider/Homefront.jpg" alt="Homefront">
+                        </div>
+                        <div class="descr">
+                            <div class="slider-text">Homefront 3 is preparing for release</div>
+                            <button class="slider-btn button">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="slider-img">
+                            <img src="./images/slider/Assassin's-Creed.jpeg" alt="Assassin's Creed">
+                        </div>
+                        <div class="descr">
+                            <div class="slider-text">New part of Assassin's Creed has been announced</div>
+                            <button class="slider-btn button">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section-about full-height" id="about">
+                <div class="about-container container">
+                    <h3 class="heading">About</h3>
+                    <div class="about-list">
+                        <div class="about-item">
+                            <img class="about-img" src="./images/icons/team.svg" alt="Team">
+                            <h4 class="about-title">Who we are?</h4>
+                            <p class="about-text">Our team consists of five people, each of whom is trying to find the
+                                latest and most interesting news. We post material related to any events in different
+                                areas of the game.</p>
+                        </div>
+
+                        <div class="about-item">
+                            <img class="about-img" src="./images/icons/lightning.svg" alt="Lightning">
+                            <h4 class="about-title">Without rest</h4>
+                            <p class="about-text">We work very hard to provide you with exciting news that comes from
+                                the world of games more and more. We hope you appreciate our work)</p>
+                        </div>
+
+                        <div class="about-item">
+                            <img class="about-img" src="./images/icons/chronometer.svg" alt="Chronometer">
+                            <h4 class="about-title">Saving time</h4>
+                            <p class="about-text">Our team is doing everything possible to ensure that you receive
+                                high-quality information without further ado, since it is very important for us to save
+                                your time.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-contact-us" id="contact_us">
+                <div class="container">
+                    <h3 class="heading">Contact Us</h3>
+                    <div class="form-container container">
+                        <form action="" class="form">
+                            <h3 class="form-title">Let's Get In Touch!</h3>
+
+                            <div class="form-item">
+                                <input class="form-input" type="text" name="name" placeholder=" " autocomplete="off"
+                                    required>
+                                <label for="" class="form-label">Name</label>
+                            </div>
+
+                            <div class="form-item">
+                                <input class="form-input" type="text" name="email" placeholder=" " autocomplete="off"
+                                    required>
+                                <label for="" class="form-label">Email</label>
+                            </div>
+
+                            <div class="form-item">
+                                <textarea class="form-textarea" name="message" placeholder="Write Message"></textarea>
+                            </div>
+
+                            <button class="form-btn button">Send</button>
+                        </form>
+                        <div class="form-images">
+                            <img class="form-img" src="./images/games-support.png" alt="Games support">
+                            <img class="form-img__square" src="./images/games-support_square.png" alt="Games support">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="social_networks">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-col">
+                        <div class="footer-logo">The Gamer</div>
+                        <div class="footer-text">This site was created solely for informational
+                            purposes of gaming news. Please, follow the generally accepted user rules
+                            on the site, do not flood our developers and have fun!</div>
+                    </div>
+                    <div class="footer-col">
+
+                        <div class="footer-social">
+                            <div class="footer-social-icon"><i class="fa fa-facebook-f"></i></div>
+                            <span>Facebook</span>
+                        </div>
+
+                        <div class="footer-social">
+                            <div class="footer-social-icon"><i class="fa fa-twitter"></i></div>
+                            <span>Twitter</span>
+                        </div>
+
+                        <div class="footer-social">
+                            <div class="footer-social-icon"><i class="fa fa-instagram"></i></div>
+                            <span>Instagram</span>
+                        </div>
+
+                        <div class="footer-social">
+                            <div class="footer-social-icon"><i class="fa fa-youtube"></i></div>
+                            <span>Youtube</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://use.fontawesome.com/1948b88eb3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
